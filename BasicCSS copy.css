@@ -1,0 +1,49 @@
+body {
+    background-color: #601595;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif';
+    font-size: 16px;
+}
+
+.images{
+    width: 750px; max-width: 100%;
+}
+
+h1 {
+    background-color: blue;
+    color: yellow;
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+}
+.quotes{
+    font-size: 24px;
+    color: rgb(78, 230, 40);
+    text-align: center;
+    
+}
+
+iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    width: 15px;
+    border: 2px solid yellow;
+    
+}
+
+table th {
+    border: 2px solid yellow;
+}
+
+table th tr {
+    border: 2px solid yellow;
+}
+tr, th, td{
+    border: 1px red;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}

@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>KETzOria</title>
+        <link rel="stylesheet" href="css/BasicCSS.css">
+    </head><!--All content should exist within body tag-->   
+    <body>
+        <h1 id="top">Welcome to the KETzOria</h1>
+        <blockquote class="quotes"><em>"the ONLY low carb pizzeria in the tri-state area</em></blockquote>
+            <div class="images"><img  src="images/cauliflower.jpeg" width="250"></img><img src="images/fathead.jpeg" width="250"></img><img src="images/chicken.jpg" width="250" height="188"></img></div>
+            <div><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/zrRDnLJdjmQ" frameborder="-100" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        <h2> LETS ORDER A PIZZA!</h2>
+        <form action="file:///Users/stephenwolcott/Desktop/stuff/Basic%20CSS/BasicCSS.html">
+            <label for="username">Username:</label>
+            <input type="text" name="username"
+            required="required" /> 
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password"
+            required="required" />
+            <input type="submit" value="Submit" />
+        <table>
+            <tr>
+                <th>Cauliflower Crust (Vegan)</th>
+                <th>Fathead Crust</th>
+                <th>Chicken Crust</th>
+            </tr>
+            <tr>
+                <td>S 13</td>
+                <td>S 14</td>
+                <td>S 15</td>
+            </tr>
+            <tr>
+                <td>M 18</td>
+                <td>M 19</td>
+                <td>M 20</td>
+            </tr>
+            <tr>
+                <td>L 23</td>
+                <td>L 24</td>
+                <td>L 25</td>
+            </tr>
+        </table>
+            <p>Choose a Crust:
+            <br>
+            <input type="radio" name="crust" value="cauliflower" checked="checked" /> Cauliflower
+            <input type="radio" name="crust" value="fathead" /> Fathead
+            <input type="radio" name="crust" value="chicken" /> Chicken
+            </p>
+
+            <p></p>Choose a Size:
+            <select name="format">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+            </select>
+            </p>
+
+            <p>Choose Your Toppings:</p>
+            <select name="toppings" size="15"
+            multiple="multiple">
+                <option value="pepperoni" selected="selected">Pepperoni</option>
+                <option value="sausage">Sausage</option>
+                <option value="ham">Ham</option>
+                <option value="beef">Beef</option>
+                <option value="chicken">Chicken</option>
+                <option value="tomatoes">Tomatoes</option>
+                <option value="onions">Onions</option>
+                <option value="red peppers">Red Peppers</option>
+                <option value="green peppers">Green Peppers</option>
+                <option value="spinich">Spinich</option>
+                <option value="pineapple">Pineapple</option>
+                <option value="mushroom">Mushroom</option>
+                <option value="olive">Olive</option>
+                <option value="feta">Feta</option>
+                <option value="bacon">Bacon</option>
+            </select>
+
+            <p>Special Instructions:</p>
+            <textarea name="comments" col="20" rows= "4" placeholder="Enter your comments"></textarea>
+            <br>
+            <input type="submit" value="Submit"/>
+        </form>
+            <a href="#top">Back to Top</a>
+    </body>
+</html>
